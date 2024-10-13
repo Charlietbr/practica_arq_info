@@ -1,0 +1,594 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Práctica de arquitectura de la información</title>
+    <link rel="shortcut icon" href="img/logopint.png" type="image/x-icon">
+</head>
+<body>
+    <!--Logo pinterest, enlaces y búsqueda-->
+    <header>
+        <ul>
+            <li>
+                <div>
+                    <img loading="lazy" src="img/logopint.png" alt="Pinterest logo" title="Pinterest movies" height="32px"">
+                </div>
+            </li>
+            <li>
+                <a href="index.html" target="_self" title="Inicio">Inicio</a>
+            </li>
+            <li>
+                <a href="index.html" target="_self" title="Explorar">Explorar</a>
+            </li>
+            <li>
+                <a href="index.html" target="_self" title="Crear">Crear</a>
+            </li>
+            <li>
+                <label for="Buscar">🔍</label>
+                <input type="search" id="buscar" name="buscar" placeholder="buscar" title="escribe tus palabras clave">
+            </li>
+
+            <li id="notificaciones">
+                <img src="img/campanita.png" alt="notificaciones" title="Notificaciones" height="20px">
+            </li>
+            <li id="mensajes">
+                <img src="img/mensaje.png" alt="notificaciones" title="Notificaciones" height="20px">
+            </li>
+            <li id="imgperfil"">
+                <img src="img/fotouser.png" alt="Tu foto de perfil" title="Tú" height="20px">
+            </li>
+            <li id="perfil-usuario">
+                <select name="menuperfil" id="opcionesperfil">
+                    <option label="^" selected>^</option>
+                    <optgroup label="Tus cuentas">
+                        <option>Añadir cuenta</option>
+                        <option>Convertir en cuenta para empresa</option>
+                    </optgroup>
+                    <optgroup label="Más opciones">
+                        <option>Ajustes</option>
+                        <option>Ajustador de feed de inicio</option>
+                        <option>Instala la aplicación Chrome</option>
+                        <option>Centro para denuncias e infracciones</option>
+                        <option>Tus derechos de privacidad</option>
+                        <option>Centro de asistencia</option>
+                        <option>Condiciones del servicio</option>
+                        <option>Política de privacidad</option>
+                        <option>Valora la versión beta</option>
+                        <option>Cerrar sesión</option>
+                    </optgroup>
+                </select>
+            </li>
+        </ul>
+    </header>
+
+
+    <main>
+        <section>
+            <article id="baskavigin">
+                <header class="article-header">
+                    <ul>
+                        <li>
+                            <select name="categorías">
+                        <optgroup label="Los más elegidos">
+                            <option>Viaje</option>
+                            <option>Bricolaje</option>
+                            <option>Tecnología</option>
+                        </optgroup>
+                        <optgroup label="Todos los tableros">
+                            <option>Desarrollo</option>
+                            <option>Montaña</option>
+                            <option>Películas</option>
+                            <option>Series</option>
+                            </select>    
+                        </li>
+                        <li>
+                            <div>
+                                <p>Guardar</p>
+                            </div>
+                            
+                        </li>
+                           
+                    </ul>
+                </header>
+                <main>
+                    <img loading="lazy" src="carteles/baskavigin.jpeg" alt="Baskavigin" style="width: 80px; border-radius: 7px;" >
+                    
+
+                </main>
+                
+
+                <footer class="article-footer">
+                    <ul>
+                        <li>
+                                                        <a href="https://www.filmaffinity.com/es/film853226.html" target="_blank">
+                                ↖︎ filmaffinity.com
+                            </a>  
+                        </li>
+                        <li>
+                            ↑
+                        </li>
+                        <li>
+                            •••
+                        </li>
+                    </ul>
+                </footer>
+            </article>
+            <article id="binladens">
+                <header class="article-header">
+                    <ul>
+                        <li>
+                            <select name="categorías">
+                        <optgroup label="Los más elegidos">
+                            <option>Viaje</option>
+                            <option>Bricolaje</option>
+                            <option>Tecnología</option>
+                        </optgroup>
+                        <optgroup label="Todos los tableros">
+                            <option>Desarrollo</option>
+                            <option>Montaña</option>
+                            <option>Películas</option>
+                            <option>Series</option>
+                            </select>    
+                        </li>
+                        <li>
+                            <div>
+                                <p>Guardar</p>
+                            </div>
+                            
+                        </li>
+                           
+                    </ul>
+                </header>
+                <main>
+                    <img loading="lazy" src="carteles/binladens.jpeg" alt="70 Binladens" style="width: 80px; border-radius: 7px;" >
+                    
+
+                </main>
+                
+
+                <footer class="article-footer">
+                    <ul>
+                        <li>
+                            <a href="https://www.filmaffinity.com/es/film262271.html" target="_blank">
+                                ↖︎ filmaffinity.com
+                            </a>  
+                        </li>
+                        <li>
+                            ↑
+                        </li>
+                        <li>
+                            •••
+                        </li>
+                    </ul>
+                </footer>
+            </article>
+            <article id="Blush">
+                <header class="article-header">
+                    <ul>
+                        <li>
+                            <select name="categorías">
+                        <optgroup label="Los más elegidos">
+                            <option>Viaje</option>
+                            <option>Bricolaje</option>
+                            <option>Tecnología</option>
+                        </optgroup>
+                        <optgroup label="Todos los tableros">
+                            <option>Desarrollo</option>
+                            <option>Montaña</option>
+                            <option selected>Películas</option>
+                            <option>Series</option>
+                            </select>    
+                        </li>
+                        <li>
+                            <div>
+                                <p>Guardar</p>
+                            </div>
+                            
+                        </li>
+                           
+                    </ul>
+                </header>
+                <main>
+                    <img loading="lazy" src="carteles/blush.jpg" alt="70 Binladens" style="width: 80px; border-radius: 7px;" >
+                    
+
+                </main>
+                
+
+                <footer class="article-footer">
+                    <ul>
+                        <li>
+                            <a href="https://www.filmaffinity.com/es/film991676.html" target="_blank">
+                                ↖︎ filmaffinity.com
+                            </a>  
+                        </li>
+                        <li>
+                            ↑
+                        </li>
+                        <li>
+                            •••
+                        </li>
+                    </ul>
+                </footer>
+            </article>
+            <article id="Chavin">
+                <header class="article-header">
+                    <ul>
+                        <li>
+                            <select name="categorías">
+                        <optgroup label="Los más elegidos">
+                            <option>Viaje</option>
+                            <option>Bricolaje</option>
+                            <option>Tecnología</option>
+                        </optgroup>
+                        <optgroup label="Todos los tableros">
+                            <option>Desarrollo</option>
+                            <option>Montaña</option>
+                            <option selected>Películas</option>
+                            <option>Series</option>
+                            </select>    
+                        </li>
+                        <li>
+                            <div>
+                                <p>Guardar</p>
+                            </div>
+                            
+                        </li>
+                           
+                    </ul>
+                </header>
+                <main>
+                    <img loading="lazy" src="carteles/chavin.jpeg" alt="Chavin de Huantar" style="width: 80px; border-radius: 7px;" >
+                    
+
+                </main>
+                
+
+                <footer class="article-footer">
+                    <ul>
+                        <li>
+                            <a href="https://www.filmaffinity.com/es/film660084.html" target="_blank">
+                                ↖︎ filmaffinity.com
+                            </a>  
+                        </li>
+                        <li>
+                            ↑
+                        </li>
+                        <li>
+                            •••
+                        </li>
+                    </ul>
+                </footer>
+            </article>
+            <article id="Cien">
+                <header class="article-header">
+                    <ul>
+                        <li>
+                            <select name="categorías">
+                        <optgroup label="Los más elegidos">
+                            <option>Viaje</option>
+                            <option>Bricolaje</option>
+                            <option>Tecnología</option>
+                        </optgroup>
+                        <optgroup label="Todos los tableros">
+                            <option>Desarrollo</option>
+                            <option>Montaña</option>
+                            <option selected>Películas</option>
+                            <option>Series</option>
+                            </select>    
+                        </li>
+                        <li>
+                            <div>
+                                <p>Guardar</p>
+                            </div>
+                            
+                        </li>
+                           
+                    </ul>
+                </header>
+                <main>
+                    <img loading="lazy" src="carteles/cien.jpeg" alt="Cien años de perdón" style="width: 80px; border-radius: 7px;" >
+                    
+
+                </main>
+                
+
+                <footer class="article-footer">
+                    <ul>
+                        <li>
+                            <a href="https://www.filmaffinity.com/es/film260479.html" target="_blank">
+                                ↖︎ filmaffinity.com
+                            </a>  
+                        </li>
+                        <li>
+                            ↑
+                        </li>
+                        <li>
+                            •••
+                        </li>
+                    </ul>
+                </footer>
+            </article>
+            <article id="costuras">
+                <header class="article-header">
+                    <ul>
+                        <li>
+                            <select name="categorías">
+                        <optgroup label="Los más elegidos">
+                            <option>Viaje</option>
+                            <option>Bricolaje</option>
+                            <option>Tecnología</option>
+                        </optgroup>
+                        <optgroup label="Todos los tableros">
+                            <option>Desarrollo</option>
+                            <option>Montaña</option>
+                            <option selected>Películas</option>
+                            <option>Series</option>
+                            </select>    
+                        </li>
+                        <li>
+                            <div>
+                                <p>Guardar</p>
+                            </div>
+                            
+                        </li>
+                           
+                    </ul>
+                </header>
+                <main>
+                    <img loading="lazy" src="carteles/costuras.jpeg" alt="El tiempo entre costuras" style="width: 80px; border-radius: 7px;" >
+                    
+
+                </main>
+                
+
+                <footer class="article-footer">
+                    <ul>
+                        <li>
+                            <a href="https://www.filmaffinity.com/es/film329098.html" target="_blank">
+                                ↖︎ filmaffinity.com
+                            </a>  
+                        </li>
+                        <li>
+                            ↑
+                        </li>
+                        <li>
+                            •••
+                        </li>
+                    </ul>
+                </footer>
+            </article>
+            <article id="devilbelow">
+                <header class="article-header">
+                    <ul>
+                        <li>
+                            <select name="categorías">
+                        <optgroup label="Los más elegidos">
+                            <option>Viaje</option>
+                            <option>Bricolaje</option>
+                            <option>Tecnología</option>
+                        </optgroup>
+                        <optgroup label="Todos los tableros">
+                            <option>Desarrollo</option>
+                            <option>Montaña</option>
+                            <option selected>Películas</option>
+                            <option>Series</option>
+                            </select>    
+                        </li>
+                        <li>
+                            <div>
+                                <p>Guardar</p>
+                            </div>
+                            
+                        </li>
+                           
+                    </ul>
+                </header>
+                <main>
+                    <img loading="lazy" src="carteles/devilbelow.jpeg" alt="The devil below" style="width: 80px; border-radius: 7px;">
+                </main>
+                
+
+                <footer class="article-footer">
+                    <ul>
+                        <li>
+                            <a href="https://www.filmaffinity.com/es/film137485.html" target="_blank">
+                                ↖︎ filmaffinity.com
+                            </a>  
+                        </li>
+                        <li>
+                            ↑
+                        </li>
+                        <li>
+                            •••
+                        </li>
+                    </ul>
+                </footer>
+            </article>
+            <article id="elclub">
+                <header class="article-header">
+                    <ul>
+                        <li>
+                            <select name="categorías">
+                        <optgroup label="Los más elegidos">
+                            <option>Viaje</option>
+                            <option>Bricolaje</option>
+                            <option>Tecnología</option>
+                        </optgroup>
+                        <optgroup label="Todos los tableros">
+                            <option>Desarrollo</option>
+                            <option>Montaña</option>
+                            <option selected>Películas</option>
+                            <option>Series</option>
+                            </select>    
+                        </li>
+                        <li>
+                            <div>
+                                <p>Guardar</p>
+                            </div>
+                            
+                        </li>
+                           
+                    </ul>
+                </header>
+                <main>
+                    <img loading="lazy" src="carteles/elclub.jpeg" alt="El club de los incomprendidos" style="width: 80px; border-radius: 7px;">
+                </main>
+                
+
+                <footer class="article-footer">
+                    <ul>
+                        <li>
+                            <a href="https://www.filmaffinity.com/es/film975452.html" target="_blank">
+                                ↖︎ filmaffinity.com
+                            </a>  
+                        </li>
+                        <li>
+                            ↑
+                        </li>
+                        <li>
+                            •••
+                        </li>
+                    </ul>
+                </footer>
+            </article>
+            <article id="elfaro">
+                <header class="article-header">
+                    <ul>
+                        <li>
+                            <select name="categorías">
+                        <optgroup label="Los más elegidos">
+                            <option>Viaje</option>
+                            <option>Bricolaje</option>
+                            <option>Tecnología</option>
+                        </optgroup>
+                        <optgroup label="Todos los tableros">
+                            <option>Desarrollo</option>
+                            <option>Montaña</option>
+                            <option selected>Películas</option>
+                            <option>Series</option>
+                            </select>    
+                        </li>
+                        <li>
+                            <div>
+                                <p>Guardar</p>
+                            </div>
+                            
+                        </li>
+                           
+                    </ul>
+                </header>
+                <main>
+                    <img loading="lazy" src="carteles/elfaro.jpeg" alt="El faro de las orcas" style="width: 80px; border-radius: 7px;">
+                </main>
+                
+
+                <footer class="article-footer">
+                    <ul>
+                        <li>
+                            <a href="https://www.filmaffinity.com/es/film112349.html" target="_blank">
+                                ↖︎ filmaffinity.com
+                            </a>  
+                        </li>
+                        <li>
+                            ↑
+                        </li>
+                        <li>
+                            •••
+                        </li>
+                    </ul>
+                </footer>
+            </article>
+            <article id="errementari">
+                <header class="article-header">
+                    <ul>
+                        <li>
+                            <select name="categorías">
+                        <optgroup label="Los más elegidos">
+                            <option>Viaje</option>
+                            <option>Bricolaje</option>
+                            <option>Tecnología</option>
+                        </optgroup>
+                        <optgroup label="Todos los tableros">
+                            <option>Desarrollo</option>
+                            <option>Montaña</option>
+                            <option selected>Películas</option>
+                            <option>Series</option>
+                            </select>    
+                        </li>
+                        <li>
+                            <div>
+                                <p>Guardar</p>
+                            </div>
+                            
+                        </li>
+                           
+                    </ul>
+                </header>
+                <main>
+                    <img loading="lazy" src="carteles/errementari.jpeg" alt="Errementari" style="width: 80px; border-radius: 7px;">
+                </main>
+                
+
+                <footer class="article-footer">
+                    <ul>
+                        <li>
+                            <a href="https://www.filmaffinity.com/es/film330685.html" target="_blank">
+                                ↖︎ filmaffinity.com
+                            </a>  
+                        </li>
+                        <li>
+                            ↑
+                        </li>
+                        <li>
+                            •••
+                        </li>
+                    </ul>
+                </footer>
+            </article>
+        </section>
+
+    </main>
+    
+    <!-- Enlaces comunes pinterest - footer-->
+    <footer>
+        <div>
+            <img src="img/logopint.png" alt="Pinterest logo" height="32px" loading="lazy">
+                <ul>
+                    <li>
+                        <a href="#">About Us</a>
+                    </li>
+                    <li>
+                        <a href="#">Contact Us</a>
+                    </li>
+                    <li>
+                        <a href="#">FAQs</a>
+                    </li>
+                    <li>
+                        <a href="#">Return Policy</a>
+                    </li>
+                </ul>
+
+                <ul>
+                    <li>
+                        <a href="#">Terms of Sale</a>
+                    </li>
+                    <li>
+                        <a href="#">Terms of Service</a>
+                    </li>
+                    <li>
+                        <a href="#">Privacy Policy</a>
+                    </li>
+                    <li>
+                        <a href="#">Licensing</a>
+                    </li>
+                </ul>
+        </div>
+        <div>
+            <span>© Pinterest Company</span>
+            <a href="#">Pinterest</a>
+        </div>
+    </footer>
+</body>
+</html>
